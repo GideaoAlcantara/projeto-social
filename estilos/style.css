@@ -48,6 +48,27 @@ iframe{
     position: relative;
     top:80px ;
     left:22px ;
-    width: 269px;
+    width: 267px;
     height: 470px;
+}
+
+/*-----------------conf botoes das redes sociais-----------------------------*/
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /* 50% faz ficar circulo*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.234);
+    box-sizing: border-box; /*a bola vai ficar na caixa sem mexer*/
+}
+
+section#redes{
+   text-align: right;
+}
+
+section#redes img:hover{
+   border: 2px solid rgba(255, 255, 255, 0.664);
+   transform: translate(-3px,-3px); /*parece com o zoom ,ele vem pra frente. esse exemplo usou o pra cima e baixo*/
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.501);
+   transition: -5s;
 }
